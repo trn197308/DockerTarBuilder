@@ -9,7 +9,7 @@ on:
 
 jobs:
   pull_and_package:
-    runs-on: self-hosted+
+    runs-on: self-hosted
 
     steps:
     - name: Checkout repository
